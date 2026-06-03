@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЛР А-8 — Ввод текста для анализа</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f0f0; padding: 30px; }
+        h1   { color: #1a5c2a; }
+        textarea { width: 500px; height: 160px; padding: 10px; font-size: 15px; border: 1px solid #999; border-radius: 4px; }
+        button { margin-top: 12px; display: block; padding: 10px 24px; background: #1a5c2a; color: #fff; border: none; border-radius: 4px; font-size: 15px; cursor: pointer; }
+        button:hover { background: #145020; }
+    </style>
+</head>
+<body>
+<h1>ЛР А-8 — Анализ текста</h1>
+<form method="post" action="result.php">
+    <label for="data">Введите текст для анализа:</label><br><br>
+    <textarea id="data" name="data" placeholder="Введите текст на русском или английском..."></textarea>
+    <button type="submit">Анализировать</button>
+</form>
+</body>
+</html>
